@@ -9,7 +9,7 @@ Oct 14, 2019 - Created the whole project setup and the react app named frontend.
              - install backend dependencies
              - install nodemon as a dev dependencies
              - created folders for models and routes
-
+             - Setup the server.js(included the connection of the database to the app)
 
 Dev 2: Jerome S. Jaropojop
 
@@ -49,3 +49,5 @@ GIT COMMANDS
 [ Push Changes to Master Branch]        -   git push origin master
 [ Merge Branch to Local Master Branch ] -   git checkout master
                                         -   git merge master [branch_name]
+[ Match Commit History(For Remote and Local Master Branch) ]  -   git pull --rebase
+[ For removing the gitlink in the react folder]  -   git rm --cached <nameoOfFolder>
