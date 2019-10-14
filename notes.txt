@@ -1,0 +1,51 @@
+Changes:
+Format for updating files and code:
+Date of change -- description
+
+Dev 1: Gabriel V. Agoncillo
+Oct 14, 2019 - Created the whole project setup and the react app named frontend.
+             - created a server.js file
+             - edit the package.json of scripts. Set the server into nodemon server.js
+             - install backend dependencies
+             - install nodemon as a dev dependencies
+             - created folders for models and routes
+
+
+Dev 2: Jerome S. Jaropojop
+
+
+
+NPM dependencies
+Frontend:
+Oct 14, 2019
+-react
+
+Backend:
+Oct 14, 2019
+- mongoose
+- express
+- bcryptjs
+- concurrently
+- config
+devDependency
+- nodemon
+
+
+
+TOOLS
+  Structure   |   HTML, CSS, Vanillai JavaScript
+  Front-End   |   React, Material-UI
+  Back-End    |   MongoDB, Node.JS, Express-, "
+
+
+GIT COMMANDS
+
+[ Create Branch ]                       -   git checkout -b [branch_name]
+[ Pull Updates ]                        -   git pull
+[ Stage Changes ]                       -   git add . (add all changes) OR git add [file_name]
+[ Check Status ]                        -   git status
+[ Commit Changes ]                      -   git commit -m "Your message here..."
+[ Push Changes from Current Branch ]    -   git push origin [your_branch_name]
+[ Push Changes to Master Branch]        -   git push origin master
+[ Merge Branch to Local Master Branch ] -   git checkout master
+                                        -   git merge master [branch_name]
