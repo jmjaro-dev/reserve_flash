@@ -10,6 +10,7 @@ Oct 14, 2019 - Created the whole project setup and the react app named frontend.
              - install nodemon as a dev dependencies
              - created folders for models and routes
              - Setup the server.js(included the connection of the database to the app)
+             - Setup the Users model schema in the models folder
 
 Dev 2: Jerome S. Jaropojop
 
