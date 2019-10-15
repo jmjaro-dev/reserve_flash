@@ -21,5 +21,8 @@ mongoose.connect(db, {
     .then(_ => console.log('MongoDb Connected ...'))
     .catch(err => console.log(err));
 
+//Routes
+app.use('/users', require('./routes/users'));
+
 //PORT caller
 app.listen(port, _ => console.log(`Server is running in port: ${port}`));

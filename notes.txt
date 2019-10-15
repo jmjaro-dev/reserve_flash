@@ -11,6 +11,10 @@ Oct 14, 2019 - Created the whole project setup and the react app named frontend.
              - created folders for models and routes
              - Setup the server.js(included the connection of the database to the app)
              - Setup the Users model schema in the models folder
+Oct 15, 2019 - Created a users.js inside the routes folder that contains the routes for registration 
+               and authentication of user in the app.
+             - Change the proxy of the frontend package.json to http://localhost:5000 for backend
+             - Intall axios, @material-ui/core and @material-ui/icons in the frontend folder
 
 Dev 2: Jerome S. Jaropojop
 
@@ -20,6 +24,9 @@ NPM dependencies
 Frontend:
 Oct 14, 2019
 -react
+-axios
+-@material-ui/core
+-@material-ui/icons
 
 Backend:
 Oct 14, 2019
