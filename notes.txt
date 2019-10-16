@@ -15,6 +15,8 @@ Oct 15, 2019 - Created a users.js inside the routes folder that contains the rou
                and authentication of user in the app.
              - Change the proxy of the frontend package.json to http://localhost:5000 for backend
              - Intall axios, @material-ui/core and @material-ui/icons in the frontend folder
+Oct 16, 2019 - Created the navigational bar with contents in the components folder
+             - Install materialize-css dependencies
 
 Dev 2: Jerome S. Jaropojop
 
@@ -24,9 +26,12 @@ NPM dependencies
 Frontend:
 Oct 14, 2019
 -react
+Oct 15, 2019
 -axios
 -@material-ui/core
 -@material-ui/icons
+Oct 16 2019
+-materialize-css
 
 Backend:
 Oct 14, 2019
