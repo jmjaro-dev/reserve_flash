@@ -32,7 +32,7 @@ export default function BodyPage() {
     return (
         //Header Title
         <div className={classes.root}>
-            <Typography className={classes.root} variant="h6" >
+            <Typography className={classes.root} variant="h5" >
                 <Box textAlign="center" className="teal-text">Reserve your tickets in a <b>flash</b></Box>
             </Typography>
 
