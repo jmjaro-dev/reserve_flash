@@ -43,7 +43,7 @@ export default function AppNavbar() {
         setAnchorEl(e.currentTarget);
     }
     //Menu Item onclick listerner
-    //Eventlistern for closing the event after clicking the target
+    //Eventlistener for closing the event after clicking the target
     const handelMenuClose = e => {
         setAnchorEl(null);
     }
@@ -61,8 +61,8 @@ export default function AppNavbar() {
             onClose={handelMenuClose}
         >
             {/* MenuItems */}
-            <MenuItem onClick={handelMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handelMenuClose}>Sign Out</MenuItem>
+            <MenuItem onClick={handelMenuClose}>Sign In</MenuItem>
+            <MenuItem onClick={handelMenuClose}>Sign Up</MenuItem>
         </Menu>
     );
 
