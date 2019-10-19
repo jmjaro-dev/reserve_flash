@@ -29,6 +29,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function BodyPage() {
     const classes = useStyles();
+
     return (
         //Header Title
         <div className={classes.root}>
@@ -45,19 +46,18 @@ export default function BodyPage() {
                         {/* Card 1 */}
                         <Card className={classes.card}>
                             <CardActionArea>
-                                {/* Picture */}
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    alt="Airline Services"
-                                    image=""
+                                    src="/images/plane.jpg"
                                     title="Airline Services"
+                                    alt="Airline Services"
                                 />
                                 {/* Fix the img here */}
                                 <CardContent align="center">
                                     <Typography gutterBottom variant="h5" component="h2">
                                         <span className="teal-text">Airline</span> Services
-                                </Typography>
+                                    </Typography>
                                 </CardContent>
                             </CardActionArea>
                         </Card>
@@ -104,14 +104,11 @@ export default function BodyPage() {
                                     {/* Fix the img here */}
                                 </CardContent>
                             </CardActionArea>
-
                         </Card>
                     </Grid>
-
                 </Grid>
-
             </Container>
         </div>
 
-    )
+    );
 }

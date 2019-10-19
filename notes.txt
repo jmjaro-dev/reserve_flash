@@ -21,8 +21,8 @@ Oct 17, 2019 - Create a bodyPage at the Application but unifinished, Dev 2 will 
 
 
 Dev 2: Jerome S. Jaropojop
-
-
+Oct 19, 2019 - Renamed 'img' folder to 'images' and the images inside the folder
+             - Tested codes to fix CardImage not showing up.
 
 NPM dependencies
 Frontend:
