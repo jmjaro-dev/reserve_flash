@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 
 //Material UI components
 import AppBar from '@material-ui/core/AppBar';
@@ -14,22 +14,23 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 //Avatar onClick Menu
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-
+//PropTypes
+import PropTypes from 'prop-types';
 
 
 
 //use makeStyle if you want to customize your 
-const useStyles = makeStyles(theme => ({
+const styles = {
     menuButton: {
-        marginRight: theme.spacing(2),
+        marginRight: 20
     },
     title: {
         flexGrow: 1,
     }
-}));
+};
 
-export default function AppNavbar() {
-    const classes = useStyles();
+function AppNavbar(props) {
+    const { classes } = props;
 
     //Event Listeners use in React
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -98,3 +99,9 @@ export default function AppNavbar() {
         </div>
     )
 }
+
+AppNavbar.propTypes = {
+    classes: PropTypes.object.isRequired
+}
+
+export default withStyles(styles)(AppNavbar);

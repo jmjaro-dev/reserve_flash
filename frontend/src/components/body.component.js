@@ -1,6 +1,8 @@
 import React from 'react';
+//Proptypes
+import PropTypes from 'prop-types';
 //Material UI Components
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 //Container & Grid
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
@@ -13,22 +15,23 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 
-const useStyles = makeStyles(theme => ({
-    //global style
+//High Order
+const styles = {
     root: {
         flexGrow: 1,
         marginTop: 70
     },
-    // Card styles
     card: {
         maxWidth: 345,
         marginTop: 20
-    }
-}))
+    },
+};
 
 
-export default function BodyPage() {
-    const classes = useStyles();
+
+
+function BodyPage(props) {
+    const { classes } = props;
     return (
         //Header Title
         <div className={classes.root}>
@@ -50,7 +53,7 @@ export default function BodyPage() {
                                     component="img"
                                     height="140"
                                     alt="Airline Services"
-                                    image=""
+                                    src="img/gettyimages-155150766-612x612.jpg"
                                     title="Airline Services"
                                 />
                                 {/* Fix the img here */}
@@ -114,4 +117,11 @@ export default function BodyPage() {
         </div>
 
     )
-}
+};
+
+//HighOrder Component PropTypes
+BodyPage.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(BodyPage);
