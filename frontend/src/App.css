@@ -1,0 +1,19 @@
+.btn{
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+}
+.login-btn{
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.btn-txt-google{
+    padding-left: 10px;
+    vertical-align: middle;
+    color: black;
+}
+.btn-txt-fb{
+    padding-left: 10px;
+    vertical-align: middle;
+    color: white;
+}

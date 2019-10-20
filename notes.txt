@@ -18,11 +18,21 @@ Oct 15, 2019 - Created a users.js inside the routes folder that contains the rou
 Oct 16, 2019 - Created the navigational bar with contents in the components folder
              - Install materialize-css dependencies
 Oct 17, 2019 - Create a bodyPage at the Application but unifinished, Dev 2 will fix the problem
-
+Oct 19, 2019 - Change body.components.js to highOrder components
+             - Change the 
+             - Created a registration UI named register.components.js.
+Oct 20, 2019 - Update the register.components.js. Included a input fields for personal information
+             - Created a file for login.component.js 
+             - install npm dependencies called react-facebook-login and react-google-login
+             - Install font awesome dependencies
+             - Finished login.component.js(open for update)
 
 Dev 2: Jerome S. Jaropojop
 Oct 19, 2019 - Renamed 'img' folder to 'images' and the images inside the folder
              - Tested codes to fix CardImage not showing up.
+             - Import react-google-login at login.component
+             - Install react-social-login-buttons dependencies
+             - Install font awesome dependencies
 
 NPM dependencies
 Frontend:
@@ -34,6 +44,10 @@ Oct 15, 2019
 -@material-ui/icons
 Oct 16 2019
 -materialize-css
+Oct 20 2019
+-@date-io/date-fns
+-@material-ui/pickers
+-date-fns
 
 Backend:
 Oct 14, 2019
