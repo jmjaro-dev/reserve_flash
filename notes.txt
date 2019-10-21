@@ -26,14 +26,24 @@ Oct 20, 2019 - Update the register.components.js. Included a input fields for pe
              - install npm dependencies called react-facebook-login and react-google-login
              - Install font awesome dependencies
              - Finished login.component.js(open for update)
-
-Dev 2: Jerome S. Jaropojop
-Oct 19, 2019 - Renamed 'img' folder to 'images' and the images inside the folder
-             - Tested codes to fix CardImage not showing up.
              - Import react-google-login at login.component
              - Install react-social-login-buttons dependencies
              - Install font awesome dependencies
 
+Dev 2: Jerome S. Jaropojop
+Oct 19, 2019 - Renamed 'img' folder to 'images' and the images inside the folder
+             - Tested codes to fix CardImage not showing up.
+Oct 21, 2019 - Installed dependencies on backend: passport, passport-facebook, passport-google-oauth20
+             - Created 'keys.js' inside 'config' folder (contains Facebook and Google keys)
+             - Created 'passport.js' inside 'config' folder (contains Passport Strategies) 
+             - Deleted 'default.json' and transfered the contents to 'keys.js'
+             - Created 'UserProvider.jsx' inside 'contexts' folder and imported it on 'App.js'
+             - Changes done in 'server.js':
+                # edited 'config' path to './config/keys'
+                # imported 'passport' module and passport configuration from './config/passport.js'
+                # added passport middleware
+                # created temporary routes for Login Strategies in 'server.js'
+                
 NPM dependencies
 Frontend:
 Oct 14, 2019
